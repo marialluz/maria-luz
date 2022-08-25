@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  background-color: #FBE5E5;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #F94892;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #F94892;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #E60965;
+}
+
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+  background-color: white;
+  padding: 40px;
+}
+
+.profile-text {
+  line-height: 2;
+  margin-bottom: 100px;
+  text-decoration: none;
+}
+
+.pic {
+  height: 200px;
+  width: 200px;
+  margin-top: 40px;
+}
+
+.skills {
+  padding: 30px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-dev {
+  height: auto;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.arduino-logo {
+  height: auto;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  padding: 80px;
+}
+.btn {
+  background-color: #F94892;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  background-color: #E60965
+}
+
+.footer-link {
+  color: #E60965;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-link:hover {
+  color: #F94892;
+}
+
+.bottom-container {
+  background-color: #FFA1C9;
+  color: white;
+  padding: 25px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
